@@ -1,0 +1,173 @@
+.cont-card {
+  width: 100%;
+  background-color: rgba(252, 239, 239, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.three-cards {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.single-card {
+  display: flex;
+  flex-basis: 30%;
+  flex-wrap: wrap;
+  padding: 2px;
+  transition: 0.5s;
+  margin-top: 5px;
+}
+
+.ctn-card {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.ctn-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.backgroud-ctn {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ctn-text:hover {
+  background: #54545490;
+}
+
+
+
+.ctn-text:hover p {
+  bottom: 20%;
+  opacity: 1;
+  color: white;
+  font-size: 18px;
+}
+
+.ctn-text:hover h4 {
+  bottom: 5%;
+  opacity: 1;
+  left: 50%;
+  color: white;
+}
+
+.ctn-text:hover h2 {
+  bottom: 100%;
+  transform: translateY(10%);
+  color: white;
+}
+
+
+.ctn-text h4 {
+  width: 100%;
+  opacity: 0;
+  bottom: -50%;
+  transition: 0.5s;
+  color: white;
+
+}
+
+.ctn-text h2 {
+  width: 100%;
+  transition: 0.5s;
+  bottom: -50%;
+  transform: translateY(200px);
+
+}
+
+.ctn-text p {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.work {
+  margin-bottom: 30px
+}
+
+
+.ctn-text:hover .cont-date {
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #4B4C43;
+  height: 0;
+  padding-left: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
+  transform: translateY(10%);
+  color: white;
+}
+
+.cont-date {
+  color: black;
+  font-weight: bold;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #333536;
+  height: 0;
+  transition: 0.5s;
+  margin-left: 10px;
+  padding-left: 7px;
+  transform: translateY(500%);
+  color: white;
+}
+
+.date-card {
+  margin: 0;
+  font-style: oblique;
+  line-height: revert;
+}
+
+
+.title-card {
+  color: white;
+  padding: 15px;
+
+}
+
+.descrizio-card {
+  color: black;
+  padding: 15px;
+
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-left: 250px;
+}
+
+.button-card {
+  padding: 15px;
+  display: flex;
+}
+
+
+
+
+@media(max-width :900px) {
+  .three-cards {
+    flex-direction: column;
+  }
+
+}

@@ -1,0 +1,48 @@
+/*
+ACCORDION
+*/
+.card {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+
+.custom-accordion .accordion-icon {
+  position: absolute;
+  right: 15px;
+  transition: all 0, 3s;
+
+}
+
+.custom-accordion .card-body {
+  display: none;
+
+}
+
+.card-header:first-child {
+  text-align: initial;
+  color: black;
+  font-style: normal;
+  font-size: medium;
+  font-weight: bold;
+}
+
+
+
+.custom-accordion .accordion-active .card-body {
+  display: block;
+  text-align: justify;
+
+
+}
+
+.accordion-active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+.custom-accordion .card-header {
+  cursor: pointer;
+}

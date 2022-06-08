@@ -1,0 +1,110 @@
+/*----ITEMS------*/
+
+.contrainerjson {
+  width: 100%;
+  background-color: rgb(235, 233, 233);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.container-item {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.three-card-logo {
+  justify-content: flex-end;
+  display: flex;
+  flex: 0 0 15%;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  height: 30px;
+}
+
+
+.three-card-title {
+  flex-direction: column;
+  justify-content: space-evenly;
+  display: flex;
+  flex: 0 0 30%;
+  margin-left: 15px;
+}
+
+
+.three-card-title p {
+  padding: 0px;
+  padding-top: 10px;
+}
+
+.three-card {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 35px;
+
+}
+
+.cont {
+  flex-basis: 32%;
+  overflow: hidden;
+  display: flex;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 85%;
+  justify-content: space-evenly;
+}
+
+h5 {
+  color: #000094;
+  font-weight: bold;
+}
+
+.work {
+  margin-bottom: 30px
+}
+
+.desc {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  border-top: 1px lightslategray dotted;
+  padding-top: 15px;
+}
+
+.title {
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 969px) {
+  .row {
+    flex-direction: row;
+  }
+
+  .desc {
+    padding-bottom: 0%;
+    padding-top: 0%;
+
+  }
+
+  .title {
+    padding-top: 0%;
+    padding-bottom: 0%
+  }
+
+}
